@@ -1,0 +1,39 @@
+.project-section{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.project {
+    margin: 0px 15px 15px;
+}
+
+.project-content {
+    font-style: italic;
+}
+
+
+#project-image {
+    width: 90%;
+    height: 180px;
+}
+
+#project-image-phone {
+    width: 75%;
+    height: 180px;
+}
+
+@media(max-width: 800px){
+    .project-section{
+        flex-direction: column;
+    }
+
+    .project {
+        margin: 30px 15px 15px;
+    }
+
+    #project-image-phone {
+        width: 70%;
+        height: 200px;
+    }
+}
