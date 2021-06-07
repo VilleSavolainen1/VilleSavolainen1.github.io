@@ -1,3 +1,7 @@
+#projects {
+    width: 80%;
+}
+
 .project-section{
     display: flex;
     box-sizing: border-box;
@@ -5,7 +9,7 @@
 }
 
 .project {
-    margin: 0px 15px 15px;
+    margin: 0px 10px 10px;
 }
 
 .project-content {
@@ -14,12 +18,17 @@
 
 
 #project-image {
-    width: 90%;
+    width: 80%;
     height: 180px;
 }
 
 #project-image-phone {
-    width: 75%;
+    width: 50%;
+    height: 180px;
+}
+
+#issue-image {
+    
     height: 180px;
 }
 
@@ -30,6 +39,15 @@
 
     .project {
         margin: 30px 15px 15px;
+        width: 95%;
+    }
+
+    #project-image {
+        width: 100%;
+    }
+
+    #issue-image {
+        width: 100%;
     }
 
     #project-image-phone {
